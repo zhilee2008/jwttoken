@@ -19,10 +19,9 @@ func Init() {
 	//password := beego.AppConfig.String("cache.password")
 	// 设置配置参数
 	config := orm.Params{
-		"key":      "testa",
-		"conn":     conn,
-		"dbNum":    dbNum,
-		"password": password,
+		"key":   "testa",
+		"conn":  conn,
+		"dbNum": dbNum,
 	}
 	configStr, err := json.Marshal(config)
 	logs.Debug(string(configStr))
