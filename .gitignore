@@ -1,3 +1,2 @@
 /vendor
 /utils/*
-!/utils/jwtutils.go
